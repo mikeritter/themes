@@ -27,25 +27,25 @@ const child_package_json = `{
     "build:theme": "node ../blockbase/build.js {newtheme}",
     "build:scss": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js sass/theme.scss assets/theme.css --output-style expanded --indent-type tab --indent-width 1 --source-map true"
   },
-  "author": "",
+  "author": "Automattic",
   "license": "GPLv2"
 }`;
 
 const style_css = `/*
 Theme Name: {newtheme}
-Theme URI:
-Author:
-Author URI:
+Theme URI: https://github.com/Automattic/themes/tree/trunk/{newtheme}
+Author: Automattic
+Author URI: https://automattic.com/
 Description:
-Requires at least: 5.7
-Tested up to: 5.7
+Requires at least: 5.8
+Tested up to: 5.8
 Requires PHP: 5.7
 Version: 0.0.1
 License: GNU General Public License v2 or later
-License URI:
+License URI: https://raw.githubusercontent.com/Automattic/themes/trunk/LICENSE
 Template: blockbase
 Text Domain: {newtheme}
-Tags:
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, theme-options, threaded-comments, translation-ready, wide-blocks, auto-loading-homepage
 
 */`;
 
